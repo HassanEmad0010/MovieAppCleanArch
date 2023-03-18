@@ -1,10 +1,12 @@
 
+import 'package:clean_arch_moviee_app/core/services/services_locator.dart';
 import 'package:flutter/material.dart';
 
 import 'mobile/Presentation_Layer/PresentaionScreen.dart';
 
 void main() {
 
+  ServiceLocator().init();
 
   runApp(const MyApp());
 }
